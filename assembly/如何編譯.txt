@@ -1,0 +1,2 @@
+arm-none-eabi-gcc -T generic-hosted.ld Prog2.S -o Prog2  # 編譯 Prog2.S 為 Prog2 的可執行檔
+arm-none-eabi-run Prog2 # 執行 Prog2

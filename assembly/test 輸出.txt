@@ -1,0 +1,55 @@
+PC      condition       instruction
+0       AL              ADD
+4       AL              MOV
+8       AL              ADD
+12      LE              CMP
+16      LE              B       8
+20      AL              LDR
+24      AL              STR
+28      GE              ADD
+32      EQ              SUB
+36      NE              AND
+40      PL              ORR
+44      VS              EOR
+48      LS              MOV
+52      LT              MVN
+56      HI              CMP
+60      CC/LO           CMN
+64      MI              TEQ
+68      AL              TST
+72      CC/LO           BIC
+76      VC              ADC
+80      VS              SBC
+84      CS/HS           RSC
+88      NE              RSB
+92      GT              LDR
+96      LE              STR
+100     NE              B       8
+104     PL              BL      140
+108     EQ              B       144
+112     AL              UND
+116     CC/LO           UND
+120     HI              UND
+124     AL              UND
+128     AL              UND
+132     AL              UND
+136     AL              UND
+140     AL              ADD
+144     AL              ADD
+148     AL              UND
+152     AL              UND
+156     AL              UND
+160     AL              UND
+164     AL              UND
+168     AL              UND
+172     AL              UND
+176     AL              UND
+180     AL              STR
+184     AL              LDR
+188     AL              MOV
+192     AL              MOV
+196     AL              MOV
+200     AL              MOV
+204     AL              MOV
+208     AL              SUB
+212     AL              LDR
